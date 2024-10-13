@@ -1,5 +1,3 @@
-<div>
-    componente livewire show
-    @dump($project)
-    
-</div>
+
+<x-project-card :$project />
+   
