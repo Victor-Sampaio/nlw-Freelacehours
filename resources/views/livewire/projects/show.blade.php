@@ -1,3 +1,7 @@
+<div class="col-span-2">
+    <x-projects.card :$project />
 
-<x-project-card :$project />
+   
+</div>
+
    

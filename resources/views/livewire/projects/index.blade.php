@@ -4,7 +4,7 @@
       <a href="{{ route('projects.show', $project) }}">
          {{-- {{ $project->id }}. {{ $project->title }} --}}
 
-         <x-project-card-simple :$project />
+         <x-projects.simple-card :$project />
          
 
    @endforeach
